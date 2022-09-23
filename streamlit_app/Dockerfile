@@ -9,4 +9,4 @@ EXPOSE 8501
 RUN pip3 install wheel==0.24.0
 RUN pip3 install -r requirements.txt
 
-CMD streamlit run main.py
+ENTRYPOINT streamlit run main.py
